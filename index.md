@@ -4,80 +4,87 @@ title: Ray
 ---
 
 <style>
-  /* 1. TARGET THE THEME'S MAIN BOXES TO UNLOCK FULL WIDTH */
-  .wrapper, .container, section, .inner {
-    max-width: 98% !important;
-    width: 98% !important;
+  /* 1. FORCE THE PAGE TO USE FULL WIDTH */
+  .wrapper, .container, section {
+    max-width: 100% !important;
+    width: 100% !important;
     margin: 0 auto !important;
-    padding: 10px !important;
+    padding: 0 !important;
   }
+  header { display: none !important; }
 
-  /* 2. HIDE THE THEME'S AUTOMATIC SIDEBAR COMPLETELY */
-  header { 
-    display: none !important; 
-  }
-
-  /* 3. SET ACADEMIC FONTS & COLORS */
+  /* 2. BASE TYPOGRAPHY (Academic Standard) */
   body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Lora', serif; /* Elegant serif for body text */
     color: #333;
+    line-height: 1.7;
+    background-color: #fff;
+  }
+
+  /* 3. THE "ACADEMIC BLUE" & HEADER STYLE */
+  h1, h2, h3, h4, nav, .sidebar-name {
+    font-family: 'PT Sans', sans-serif; /* Clean sans-serif for headers */
+    color: #2e7cc7; /* The specific Blue you want */
   }
 
   h2 {
-    color: #003366;
-    border-bottom: 1px solid #003366;
-    padding-bottom: 5px;
-    margin-top: 40px;
+    border-bottom: 1.5px solid #2e7cc7;
+    padding-bottom: 8px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.3em;
   }
 
-  nav a {
-    text-decoration: none;
-    color: #007bff;
+  /* 4. SIDEBAR STYLING */
+  .nav-link {
     display: block;
-    padding: 8px 0;
-    font-size: 1.1em;
+    padding: 10px 0;
+    color: #2e7cc7;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    border-bottom: 1px solid #f0f0f0;
   }
+  
+  .nav-link:hover { color: #1a4a7a; text-decoration: underline; }
 </style>
 
-<div style="display: flex; width: 100%; align-items: flex-start;">
+<div style="display: flex; width: 100%; align-items: flex-start; padding: 40px 20px;">
 
-  <div style="width: 220px; flex-shrink: 0; border-right: 1px solid #eee; padding-right: 20px;">
-    <h3 style="margin-top:0;">Navigation</h3>
-    <nav>
-      <a href="/">Home</a>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="/cv.pdf">CV</a>
+  <div style="width: 240px; flex-shrink: 0; position: sticky; top: 40px;">
+    <img src="profile.jpg" style="width: 100%; border: 1px solid #eee; margin-bottom: 20px;">
+    <div class="sidebar-name" style="font-size: 1.5em; font-weight: bold; margin-bottom: 5px;">Ray</div>
+    <p style="font-size: 0.9em; color: #666; font-family: 'PT Sans', sans-serif;">
+        PhD Student<br>University Name
+    </p>
+    <nav style="margin-top: 20px;">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#research">Research</a>
+      <a class="nav-link" href="#publications">Publications</a>
+      <a class="nav-link" href="/cv.pdf">CV</a>
     </nav>
   </div>
 
-  <div style="flex-grow: 1; padding-left: 40px;">
+  <div style="flex-grow: 1; padding-left: 60px; max-width: 1000px;">
     
-    <div style="display: flex; align-items: center; margin-bottom: 40px;">
-      <img src="profile.jpg" style="width:200px; border:1px solid #ccc; margin-right:30px;">
-      <div>
-        <h1 style="margin:0; font-size: 2.8em;">Ray</h1>
-        <p style="font-size: 1.2em; line-height: 1.5; margin-top: 10px;">
-          PhD Student<br>
-          University Name<br>
-          Email: <a href="mailto:your@email.edu">your@email.edu</a>
-        </p>
-      </div>
-    </div>
-
+    <h1 style="margin-top: 0; font-size: 2.8em;">Biography</h1>
+    <p>I am a PhD student at <strong>University Name</strong>. My research focuses on ...</p>
+    
     <h2 id="about">About</h2>
-    <p>I am a PhD student at University Name. My research focuses on the intersection of X and Y...</p>
+    <p>Detailed description of your background, education, and general research interests.</p>
 
     <h2 id="research">Research</h2>
-    <p>My current research interests include:</p>
+    <p>My current projects include investigating the fundamental properties of...</p>
     <ul>
-      <li>Topic A: Description of work.</li>
-      <li>Topic B: Description of work.</li>
+      <li><strong>Project One:</strong> Focuses on X and its impact on Y.</li>
+      <li><strong>Project Two:</strong> Developing new methodologies for Z.</li>
     </ul>
 
-    <h2 id="publications">Publications</h2>
-    <p><strong>Ray</strong>, "Sample Paper Title," 2025.</p>
+    <h2 id="publications">Selected Publications</h2>
+    <p><strong>Ray</strong>, "An Influential Academic Paper Title," <em>Scientific Journal</em>, 2025.</p>
+    <p><strong>Ray</strong>, "Conference Contribution on Specific Topic," 2024.</p>
     
   </div>
 </div>
