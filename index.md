@@ -2,81 +2,77 @@
 layout: default
 ---
 
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
-  /* 2. FORCE FULL WIDTH & REMOVE THEME MARGINS */
+  /* 1. OVERRIDE THEME CONSTRAINTS (FULL WIDTH) */
   .wrapper, .container, section, body {
     max-width: 100% !important;
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
   }
-  
-  /* Hide the theme's automatic header */
-  header { display: none !important; }
+  header { display: none !important; } /* Hide default Jekyll sidebar */
 
-  /* 3. TYPOGRAPHY & COLORS */
+  /* 2. TYPOGRAPHY: GEORGIA & COLORS */
   body {
-    font-family: 'Lora', serif; /* Classic academic serif font */
+    font-family: 'Georgia', serif;
     color: #333;
     background-color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
   }
 
-  h1, h2, h3, nav, .name-label {
-    font-family: 'PT Sans', sans-serif; /* Clean headers */
-    color: #2e7cc7; /* The specific Zeyu Bian Blue */
+  /* Specifically targeting headers and navigation with Georgia */
+  h1, h2, h3, .nav-link, .site-title {
+    font-family: 'Georgia', serif;
+    color: #2e7cc7; /* Academic Blue */
   }
+
+  h1 { color: #333; } /* Name remains black for contrast */
 
   h2 {
-    border-bottom: 1.5px solid #2e7cc7;
-    padding-bottom: 8px;
+    border-bottom: 1.2px solid #2e7cc7;
+    padding-bottom: 5px;
     margin-top: 40px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: normal;
+    font-size: 1.5rem;
   }
 
-  /* 4. SIDEBAR NAVIGATION LINKS */
+  /* 3. SIDEBAR STYLING (TEXT ONLY) */
+  .sidebar {
+    width: 160px;
+    flex-shrink: 0;
+    padding: 40px 20px;
+    position: sticky;
+    top: 0;
+  }
+
   .nav-link {
     display: block;
-    padding: 10px 0;
-    color: #2e7cc7;
+    padding: 6px 0;
     text-decoration: none;
-    font-weight: bold;
-    border-bottom: 1px solid #f5f5f5;
+    font-size: 1.05rem;
   }
   .nav-link:hover { text-decoration: underline; }
 
-  /* 5. THE MAIN LAYOUT FLEXBOX */
-  .academic-layout {
-    display: flex;
-    padding: 40px;
-  }
-
-  .sidebar {
-    width: 250px;
-    flex-shrink: 0;
-    border-right: 1px solid #eee;
-    padding-right: 30px;
-  }
-
-  .content {
+  /* 4. MAIN CONTENT AREA */
+  .content-area {
     flex-grow: 1;
-    padding-left: 50px;
-    max-width: 1200px; /* Limits line length for readability while still being wide */
+    padding: 40px 60px;
+    max-width: 1200px;
+  }
+
+  .profile-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
   }
 </style>
 
-<div class="academic-layout">
+<div style="display: flex;">
 
   <div class="sidebar">
-    <img src="profile.jpg" style="width: 100%; border: 1px solid #ddd; margin-bottom: 20px;">
-    <div class="name-label" style="font-size: 1.8rem; font-weight: bold;">Ray</div>
-    <p style="font-size: 0.9rem; color: #666; margin-top: 5px;">PhD Student<br>University Name</p>
-    <nav style="margin-top: 25px;">
+    <div class="site-title" style="font-weight: bold; font-size: 1.2rem; margin-bottom: 20px;">Ray</div>
+    <nav>
       <a class="nav-link" href="/">Home</a>
       <a class="nav-link" href="#about">About</a>
       <a class="nav-link" href="#research">Research</a>
@@ -85,18 +81,28 @@ layout: default
     </nav>
   </div>
 
-  <div class="content">
-    <h1 style="margin-top: 0; font-size: 3rem;">Biography</h1>
-    <p>I am a PhD student at <strong>University Name</strong>. My research focuses on the intersection of X and Y...</p>
+  <div class="content-area">
+    
+    <div class="profile-header">
+      <img src="profile.jpg" style="width: 200px; margin-right: 35px; border: 1px solid #ddd;">
+      <div>
+        <h1 style="margin: 0; font-size: 2.2rem; font-weight: normal;">Ray</h1>
+        <p style="margin-top: 15px;">
+          PhD Student<br>
+          University Name<br>
+          Email: <a href="mailto:your@email.edu" style="color: #2e7cc7; text-decoration: none;">your@email.edu</a>
+        </p>
+      </div>
+    </div>
 
     <h2 id="about">About</h2>
-    <p>Detailed description of your background and education.</p>
+    <p>I am a PhD student at <strong>University Name</strong>. My research focuses on...</p>
 
     <h2 id="research">Research</h2>
-    <p>Current projects include investigating the properties of...</p>
+    <p>My current research interests include...</p>
 
-    <h2 id="publications">Selected Publications</h2>
-    <p><strong>Ray</strong>, "Sample Paper Title," <em>Scientific Journal</em>, 2025.</p>
+    <h2 id="publications">Publications</h2>
+    <p><strong>Ray</strong>, "Sample Paper Title," 2025.</p>
+
   </div>
-
 </div>
