@@ -3,91 +3,97 @@ layout: default
 ---
 
 <style>
-  /* 1. OVERRIDE THEME CONSTRAINTS (FULL WIDTH) */
+  /* 1. REMOVE THE THEME FOOTER AND HEADER */
+  footer { display: none !important; }
+  header { display: none !important; }
+  
+  /* 2. UNLOCK FULL WIDTH */
   .wrapper, .container, section, body {
     max-width: 100% !important;
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
   }
-  header { display: none !important; } /* Hide default Jekyll sidebar */
 
-  /* 2. TYPOGRAPHY: GEORGIA & COLORS */
+  /* 3. FONTS: TIMES NEW ROMAN */
   body {
-    font-family: 'Georgia', serif;
-    color: #333;
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
     background-color: #fff;
-    font-size: 1.05rem;
-    line-height: 1.6;
+    font-size: 1.15rem;
+    line-height: 1.4;
   }
 
-  /* Specifically targeting headers and navigation with Georgia */
-  h1, h2, h3, .nav-link, .site-title {
-    font-family: 'Georgia', serif;
-    color: #2e7cc7; /* Academic Blue */
+  /* Blue headers and navigation */
+  h1, h2, .nav-link, .site-title {
+    font-family: "Times New Roman", Times, serif;
+    color: #2e7cc7;
   }
 
-  h1 { color: #333; } /* Name remains black for contrast */
+  h1 { font-size: 2rem; font-weight: normal; margin-top: 0; }
 
   h2 {
-    border-bottom: 1.2px solid #2e7cc7;
-    padding-bottom: 5px;
-    margin-top: 40px;
+    border-bottom: 1px solid #2e7cc7;
+    padding-bottom: 2px;
+    margin-top: 30px;
     font-weight: normal;
     font-size: 1.5rem;
   }
 
-  /* 3. SIDEBAR STYLING (TEXT ONLY) */
+  /* 4. SIDEBAR WITH CONTRAST & VERTICAL LINE */
   .sidebar {
-    width: 160px;
+    width: 140px;
     flex-shrink: 0;
-    padding: 40px 20px;
+    padding: 30px 15px;
+    background-color: #f8f8f8; /* Contrast color */
+    border-right: 1px solid #bbb; /* The separator line */
+    min-height: 100vh;
     position: sticky;
     top: 0;
   }
 
   .nav-link {
     display: block;
-    padding: 6px 0;
+    padding: 2px 0;
     text-decoration: none;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
   }
   .nav-link:hover { text-decoration: underline; }
 
-  /* 4. MAIN CONTENT AREA */
+  /* 5. MAIN CONTENT AREA */
   .content-area {
     flex-grow: 1;
-    padding: 40px 60px;
+    padding: 30px 50px;
     max-width: 1200px;
   }
 
-  .profile-header {
+  .profile-section {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 </style>
 
 <div style="display: flex;">
 
   <div class="sidebar">
-    <div class="site-title" style="font-weight: bold; font-size: 1.2rem; margin-bottom: 20px;">Ray</div>
+    <div class="site-title" style="font-weight: bold; font-size: 1.1rem; margin-bottom: 15px; color: #000;">Home</div>
     <nav>
       <a class="nav-link" href="/">Home</a>
-      <a class="nav-link" href="#about">About</a>
       <a class="nav-link" href="#research">Research</a>
-      <a class="nav-link" href="#publications">Publications</a>
+      <a class="nav-link" href="#software">Software</a>
+      <a class="nav-link" href="#teaching">Teaching</a>
       <a class="nav-link" href="/cv.pdf">CV</a>
     </nav>
   </div>
 
   <div class="content-area">
     
-    <div class="profile-header">
-      <img src="profile.jpg" style="width: 200px; margin-right: 35px; border: 1px solid #ddd;">
+    <div class="profile-section">
+      <img src="profile.jpg" style="width: 180px; margin-right: 30px; border: 1px solid #999; padding: 1px;">
       <div>
-        <h1 style="margin: 0; font-size: 2.2rem; font-weight: normal;">Ray</h1>
-        <p style="margin-top: 15px;">
+        <h1>Ray</h1>
+        <p>
           PhD Student<br>
           University Name<br>
           Email: <a href="mailto:your@email.edu" style="color: #2e7cc7; text-decoration: none;">your@email.edu</a>
@@ -96,13 +102,13 @@ layout: default
     </div>
 
     <h2 id="about">About</h2>
-    <p>I am a PhD student at <strong>University Name</strong>. My research focuses on...</p>
+    <p>I am a PhD student at University Name. My research focuses on...</p>
 
     <h2 id="research">Research</h2>
-    <p>My current research interests include...</p>
+    <p>My research interests include...</p>
 
     <h2 id="publications">Publications</h2>
-    <p><strong>Ray</strong>, "Sample Paper Title," 2025.</p>
+    <p><strong>Ray</strong>, "Title of Paper," 2025.</p>
 
   </div>
 </div>
