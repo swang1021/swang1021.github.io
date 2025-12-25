@@ -1,64 +1,82 @@
 ---
 layout: default
-title: Ray
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
 <style>
-  /* 1. FORCE THE PAGE TO USE FULL WIDTH */
-  .wrapper, .container, section {
+  /* 2. FORCE FULL WIDTH & REMOVE THEME MARGINS */
+  .wrapper, .container, section, body {
     max-width: 100% !important;
     width: 100% !important;
-    margin: 0 auto !important;
+    margin: 0 !important;
     padding: 0 !important;
   }
+  
+  /* Hide the theme's automatic header */
   header { display: none !important; }
 
-  /* 2. BASE TYPOGRAPHY (Academic Standard) */
+  /* 3. TYPOGRAPHY & COLORS */
   body {
-    font-family: 'Lora', serif; /* Elegant serif for body text */
+    font-family: 'Lora', serif; /* Classic academic serif font */
     color: #333;
-    line-height: 1.7;
     background-color: #fff;
+    font-size: 1.1rem;
   }
 
-  /* 3. THE "ACADEMIC BLUE" & HEADER STYLE */
-  h1, h2, h3, h4, nav, .sidebar-name {
-    font-family: 'PT Sans', sans-serif; /* Clean sans-serif for headers */
-    color: #2e7cc7; /* The specific Blue you want */
+  h1, h2, h3, nav, .name-label {
+    font-family: 'PT Sans', sans-serif; /* Clean headers */
+    color: #2e7cc7; /* The specific Zeyu Bian Blue */
   }
 
   h2 {
     border-bottom: 1.5px solid #2e7cc7;
     padding-bottom: 8px;
-    margin-top: 50px;
+    margin-top: 40px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 1.3em;
+    font-size: 1.2rem;
+    font-weight: 700;
   }
 
-  /* 4. SIDEBAR STYLING */
+  /* 4. SIDEBAR NAVIGATION LINKS */
   .nav-link {
     display: block;
     padding: 10px 0;
     color: #2e7cc7;
     text-decoration: none;
     font-weight: bold;
-    font-family: 'PT Sans', sans-serif;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f5f5f5;
   }
-  
-  .nav-link:hover { color: #1a4a7a; text-decoration: underline; }
+  .nav-link:hover { text-decoration: underline; }
+
+  /* 5. THE MAIN LAYOUT FLEXBOX */
+  .academic-layout {
+    display: flex;
+    padding: 40px;
+  }
+
+  .sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    border-right: 1px solid #eee;
+    padding-right: 30px;
+  }
+
+  .content {
+    flex-grow: 1;
+    padding-left: 50px;
+    max-width: 1200px; /* Limits line length for readability while still being wide */
+  }
 </style>
 
-<div style="display: flex; width: 100%; align-items: flex-start; padding: 40px 20px;">
+<div class="academic-layout">
 
-  <div style="width: 240px; flex-shrink: 0; position: sticky; top: 40px;">
-    <img src="profile.jpg" style="width: 100%; border: 1px solid #eee; margin-bottom: 20px;">
-    <div class="sidebar-name" style="font-size: 1.5em; font-weight: bold; margin-bottom: 5px;">Ray</div>
-    <p style="font-size: 0.9em; color: #666; font-family: 'PT Sans', sans-serif;">
-        PhD Student<br>University Name
-    </p>
-    <nav style="margin-top: 20px;">
+  <div class="sidebar">
+    <img src="profile.jpg" style="width: 100%; border: 1px solid #ddd; margin-bottom: 20px;">
+    <div class="name-label" style="font-size: 1.8rem; font-weight: bold;">Ray</div>
+    <p style="font-size: 0.9rem; color: #666; margin-top: 5px;">PhD Student<br>University Name</p>
+    <nav style="margin-top: 25px;">
       <a class="nav-link" href="/">Home</a>
       <a class="nav-link" href="#about">About</a>
       <a class="nav-link" href="#research">Research</a>
@@ -67,24 +85,18 @@ title: Ray
     </nav>
   </div>
 
-  <div style="flex-grow: 1; padding-left: 60px; max-width: 1000px;">
-    
-    <h1 style="margin-top: 0; font-size: 2.8em;">Biography</h1>
-    <p>I am a PhD student at <strong>University Name</strong>. My research focuses on ...</p>
-    
+  <div class="content">
+    <h1 style="margin-top: 0; font-size: 3rem;">Biography</h1>
+    <p>I am a PhD student at <strong>University Name</strong>. My research focuses on the intersection of X and Y...</p>
+
     <h2 id="about">About</h2>
-    <p>Detailed description of your background, education, and general research interests.</p>
+    <p>Detailed description of your background and education.</p>
 
     <h2 id="research">Research</h2>
-    <p>My current projects include investigating the fundamental properties of...</p>
-    <ul>
-      <li><strong>Project One:</strong> Focuses on X and its impact on Y.</li>
-      <li><strong>Project Two:</strong> Developing new methodologies for Z.</li>
-    </ul>
+    <p>Current projects include investigating the properties of...</p>
 
     <h2 id="publications">Selected Publications</h2>
-    <p><strong>Ray</strong>, "An Influential Academic Paper Title," <em>Scientific Journal</em>, 2025.</p>
-    <p><strong>Ray</strong>, "Conference Contribution on Specific Topic," 2024.</p>
-    
+    <p><strong>Ray</strong>, "Sample Paper Title," <em>Scientific Journal</em>, 2025.</p>
   </div>
+
 </div>
