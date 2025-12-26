@@ -50,7 +50,7 @@ layout: default
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center; /* 👈 Horizontal center */
+  /* align-items: center;  👈 Horizontal center */
   }
 
   .nav-link {
@@ -78,21 +78,23 @@ layout: default
   }
 </style>
 
-<div style="display: flex;">
-
+<div class="layout">
   <div class="sidebar">
-    <!-- <div class="site-title" style="font-weight: bold; font-size: 1.1rem; margin-bottom: 15px; color: #000;">Home</div> -->
+    <!--
+    <div class="site-title">Home</div>
+    -->
     <nav>
       <a class="nav-link" href="/">Home</a>
-      <!--<a class="nav-link" href="#research">Research</a>
+      <!--
+      <a class="nav-link" href="#research">Research</a>
       <a class="nav-link" href="#software">Software</a>
       <a class="nav-link" href="#teaching">Teaching</a>
-      <a class="nav-link" href="/cv.pdf">CV</a>-->
+      <a class="nav-link" href="assets/CV.pdf" target="_blank">CV</a>
+      -->
     </nav>
   </div>
 
   <div class="content-area">
-    
     <div class="profile-section">
       <img src="profile.jpg" style="width: 180px; margin-right: 30px; border: 1px solid #999; padding: 1px;">
       <div>
@@ -104,13 +106,10 @@ layout: default
         </p>
       </div>
     </div>
-
     <h2 id="about">About Me</h2>
     <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with <a href="https://cas.gsu.edu/profile/gengsheng-qin/" target="_blank" rel="noopener">Prof. Gengsheng Qin</a>. Here is my <a href="CV_Shirui Wang.pdf" target="_blank" rel="noopener">CV (updated Dec 2025)</a>.</p>
-
     <h2 id="research">Research</h2>
     <p>My current research interests center on developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine.</p>
-
     <h2 id="publications">Publications and Working Papers</h2>
     <p><strong>Wang S</strong>, Shi S, Qin G. Interval estimation for the Youden index of a continuous diagnostic test with verification biased data. <em>Statistical Methods in Medical Research</em> 2025; 34: 796-811. <a href="https://journals.sagepub.com/doi/10.1177/09622802251322989">doi:10.1177/09622802251322989</a></p>
     <p>Shi S, <strong>Wang S</strong>, Qin G. Interval estimation for three-class Youden index with verification bias. <em>Journal of Biopharmaceutical Statistics</em> 2025; 1: 1-22. <a href="https://www.tandfonline.com/doi/abs/10.1080/10543406.2025.2549361">doi:10.1080/10543406.2025.2549361</a></p>
@@ -121,9 +120,7 @@ layout: default
     <p>Jia S, <strong>Wang S</strong>, Qin G. Empirical Likelihood-Based Confidence Intervals for the Partial AUC with Verification Bias. <em>Revision at Pharmaceutical Statistics</em>
     <p><strong>Wang S</strong>, Islami F, Siegel RL, Jemal A, Choudhury PP. Imputation of missing cancer stage at diagnosis accounting for stage-specific survival. <em>Manuscript in preparation</em>
     <p>Choudhury PP, Zhao J, <strong>Wang S</strong>, Jemal A, Yabroff R, Islami F. Are disruptions in Medicaid coverage linked to advanced stage diagnosis of screen-detectable cancers? <em>Manuscript in preparation</em>
-
     <h2 id="others">More about me...</h2>
     <p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/">douban</a> and <a href="https://moumouw.home.blog/">blog</a>.</p>
-    
   </div>
-</div>
+  </div>
