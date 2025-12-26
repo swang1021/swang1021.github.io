@@ -121,6 +121,6 @@ layout: default
     <p><strong>Wang S</strong>, Islami F, Siegel RL, Jemal A, Choudhury PP. Imputation of missing cancer stage at diagnosis accounting for stage-specific survival. <em>Manuscript in preparation</em>
     <p>Choudhury PP, Zhao J, <strong>Wang S</strong>, Jemal A, Yabroff R, Islami F. Are disruptions in Medicaid coverage linked to advanced stage diagnosis of screen-detectable cancers? <em>Manuscript in preparation</em>
     <h2 id="others">More about me...</h2>
-    <p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/">douban</a> and <a href="https://moumouw.home.blog/">blog</a>.</p>
+    <p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/" target="_blank" rel="noopener">douban</a> and <a href="https://moumouw.home.blog/" target="_blank" rel="noopener">blog</a>.</p>
   </div>
   </div>
