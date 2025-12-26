@@ -42,7 +42,7 @@ layout: default
 
   /* 4. SIDEBAR WITH CONTRAST & VERTICAL LINE */
   .sidebar {
-  width: 120px;
+  width: 100px;
   flex-shrink: 0;
   padding: 30px 15px;
   background-color: #f8f8f8;
@@ -50,7 +50,7 @@ layout: default
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* align-items: center;  👈 Horizontal center */
+  align-items: center;  /* Horizontal center */
   }
 
   .nav-link {
@@ -68,7 +68,7 @@ layout: default
   .content-area {
     flex-grow: 1;
     padding: 30px 50px;
-    max-width: 1200px;
+    max-width: none;
   }
 
   .profile-section {
@@ -102,8 +102,8 @@ layout: default
     <h2 id="research">Research</h2>
     <p>My current research interests center on developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine.</p>
     <h2 id="publications">Publications and Working Papers</h2>
-    <p><strong>Wang S</strong>, Shi S, Qin G. Interval estimation for the Youden index of a continuous diagnostic test with verification biased data. <em>Statistical Methods in Medical Research</em> 2025; 34: 796-811. <a href="https://journals.sagepub.com/doi/10.1177/09622802251322989">doi:10.1177/09622802251322989</a></p>
-    <p>Shi S, <strong>Wang S</strong>, Qin G. Interval estimation for three-class Youden index with verification bias. <em>Journal of Biopharmaceutical Statistics</em> 2025; 1: 1-22. <a href="https://www.tandfonline.com/doi/abs/10.1080/10543406.2025.2549361">doi:10.1080/10543406.2025.2549361</a></p>
+    <p><strong>Wang S</strong>, Shi S, Qin G. Interval estimation for the Youden index of a continuous diagnostic test with verification biased data. <em>Statistical Methods in Medical Research</em> 2025; 34: 796-811. <a href="https://journals.sagepub.com/doi/10.1177/09622802251322989" target="_blank" rel="noopener">doi:10.1177/09622802251322989</a></p>
+    <p>Shi S, <strong>Wang S</strong>, Qin G. Interval estimation for three-class Youden index with verification bias. <em>Journal of Biopharmaceutical Statistics</em> 2025; 1: 1-22. <a href="https://www.tandfonline.com/doi/abs/10.1080/10543406.2025.2549361" target="_blank" rel="noopener">doi:10.1080/10543406.2025.2549361</a></p>
     <p>Shi S, <strong>Wang S</strong>, Qin G. Interval Estimation for the Sensitivity of a Test to the Early Diseased Stage with Verification Bias. <em>Revision at Pharmaceutical Statistics</em>
     <p>Jia S, <strong>Wang S</strong>, Qin G. Methodological Approaches for the Estimation of Confidence Intervals on Partial Youden Index under Verification Bias. <em>Revision at Pharmaceutical Statistics</em>
     <p><strong>Wang S</strong>, Shi S, Qin G. Empirical likelihood inference for the area under the ROC curve with verification biased data. <em>Submitted</em>
@@ -113,4 +113,3 @@ layout: default
     <p>Choudhury PP, Zhao J, <strong>Wang S</strong>, Jemal A, Yabroff R, Islami F. Are disruptions in Medicaid coverage linked to advanced stage diagnosis of screen-detectable cancers? <em>Manuscript in preparation</em>
     <h2 id="others">More about me...</h2>
     <p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/" target="_blank" rel="noopener">douban</a> and <a href="https://moumouw.home.blog/" target="_blank" rel="noopener">blog</a>.</p>
-  </div>
