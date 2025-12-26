@@ -26,18 +26,18 @@ layout: default
 
   /* Blue headers and navigation */
   h1, h2, .nav-link, .site-title {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Georgia, "Times New Roman", serif;
     color: #2e7cc7;
   }
 
-  h1 { font-size: 2rem; font-weight: bold; margin-top: 0; }
+  h1 { font-size: 3rem; font-weight: bold; margin-top: 0; }
 
   h2 {
     border-bottom: 1px solid #2e7cc7;
     padding-bottom: 2px;
     margin-top: 30px;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   /* 4. SIDEBAR WITH CONTRAST & VERTICAL LINE */
