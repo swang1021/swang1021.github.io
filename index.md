@@ -21,7 +21,7 @@ layout: default
     color: #000;
     background-color: #fff;
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 
   /* Blue headers and navigation */
@@ -50,7 +50,7 @@ layout: default
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* 👈 vertical center */
+  align-items: center; /* 👈 Horizontal center */
   }
 
   .nav-link {
@@ -106,14 +106,14 @@ layout: default
     </div>
 
     <h2 id="about">About Me</h2>
-    <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with Prof. Gengsheng Qin. Here is my <a href="CV_Shirui Wang.pdf" target="_blank" rel="noopener">CV (updated Dec 2025)</a>.</p>
+    <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with <a href="https://cas.gsu.edu/profile/gengsheng-qin/" target="_blank" rel="noopener">Prof. Gengsheng Qin</a>. Here is my <a href="CV_Shirui Wang.pdf" target="_blank" rel="noopener">CV (updated Dec 2025)</a>.</p>
 
     <h2 id="research">Research</h2>
     <p>My current research interests center on developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine.</p>
 
     <h2 id="publications">Publications and Working Papers</h2>
-    <p><strong>Wang S</strong>, Shi S, Qin G. Interval estimation for the Youden index of a continuous diagnostic test with verification biased data. <em>Statistical Methods in Medical Research</em> 2025; 34: 796-811. <a href="https://journals.sagepub.com/doi/10.1177/09622802251322989">doi:10.1177/09622802251322989</p>
-    <p>Shi S, <strong>Wang S</strong>, Qin G. Interval estimation for three-class Youden index with verification bias. <em>Journal of Biopharmaceutical Statistics</em> 2025; 1: 1-22. <a href="https://www.tandfonline.com/doi/abs/10.1080/10543406.2025.2549361">doi:10.1080/10543406.2025.2549361</p>
+    <p><strong>Wang S</strong>, Shi S, Qin G. Interval estimation for the Youden index of a continuous diagnostic test with verification biased data. <em>Statistical Methods in Medical Research</em> 2025; 34: 796-811. <a href="https://journals.sagepub.com/doi/10.1177/09622802251322989">doi:10.1177/09622802251322989</a></p>
+    <p>Shi S, <strong>Wang S</strong>, Qin G. Interval estimation for three-class Youden index with verification bias. <em>Journal of Biopharmaceutical Statistics</em> 2025; 1: 1-22. <a href="https://www.tandfonline.com/doi/abs/10.1080/10543406.2025.2549361">doi:10.1080/10543406.2025.2549361</a></p>
     <p>Shi S, <strong>Wang S</strong>, Qin G. Interval Estimation for the Sensitivity of a Test to the Early Diseased Stage with Verification Bias. <em>Revision at Pharmaceutical Statistics</em>
     <p>Jia S, <strong>Wang S</strong>, Qin G. Methodological Approaches for the Estimation of Confidence Intervals on Partial Youden Index under Verification Bias. <em>Revision at Pharmaceutical Statistics</em>
     <p><strong>Wang S</strong>, Shi S, Qin G. Empirical likelihood inference for the area under the ROC curve with verification biased data. <em>Submitted</em>
