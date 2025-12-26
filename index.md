@@ -50,6 +50,7 @@ layout: default
   text-decoration-line: underline !important;      /* force underline */
   text-decoration-style: dotted !important;        /* or dashed */
   text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   }
 
   /* 4. SIDEBAR WITH CONTRAST & VERTICAL LINE */
@@ -76,6 +77,7 @@ layout: default
   text-decoration-line: underline;
   text-decoration-style: dotted;
   text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   }
 
   /* 5. MAIN CONTENT AREA */
