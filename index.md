@@ -20,8 +20,8 @@ layout: default
     font-family: "Times New Roman", Times, serif;
     color: #000;
     background-color: #fff;
-    font-size: 1.15rem;
-    line-height: 1.4;
+    font-size: 1.5rem;
+    line-height: 1.5;
   }
 
   /* Blue headers and navigation */
@@ -30,19 +30,19 @@ layout: default
     color: #2e7cc7;
   }
 
-  h1 { font-size: 2rem; font-weight: normal; margin-top: 0; }
+  h1 { font-size: 2rem; font-weight: bold; margin-top: 0; }
 
   h2 {
     border-bottom: 1px solid #2e7cc7;
     padding-bottom: 2px;
     margin-top: 30px;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 1.5rem;
   }
 
   /* 4. SIDEBAR WITH CONTRAST & VERTICAL LINE */
   .sidebar {
-    width: 140px;
+    width: 120px;
     flex-shrink: 0;
     padding: 30px 15px;
     background-color: #f8f8f8; /* Contrast color */
@@ -56,9 +56,14 @@ layout: default
     display: block;
     padding: 2px 0;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 2rem;
   }
-  .nav-link:hover { text-decoration: underline; }
+  .nav-link:hover {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #2e7cc7;
+  }
 
   /* 5. MAIN CONTENT AREA */
   .content-area {
@@ -77,13 +82,13 @@ layout: default
 <div style="display: flex;">
 
   <div class="sidebar">
-    <div class="site-title" style="font-weight: bold; font-size: 1.1rem; margin-bottom: 15px; color: #000;">Home</div>
+    <!-- <div class="site-title" style="font-weight: bold; font-size: 1.1rem; margin-bottom: 15px; color: #000;">Home</div> -->
     <nav>
       <a class="nav-link" href="/">Home</a>
-      <a class="nav-link" href="#research">Research</a>
+      <!--<a class="nav-link" href="#research">Research</a>
       <a class="nav-link" href="#software">Software</a>
       <a class="nav-link" href="#teaching">Teaching</a>
-      <a class="nav-link" href="/cv.pdf">CV</a>
+      <a class="nav-link" href="/cv.pdf">CV</a>-->
     </nav>
   </div>
 
@@ -92,17 +97,17 @@ layout: default
     <div class="profile-section">
       <img src="profile.jpg" style="width: 180px; margin-right: 30px; border: 1px solid #999; padding: 1px;">
       <div>
-        <h1>Ray</h1>
+        <h1>Shirui (Ray) Wang</h1>
         <p>
           PhD Student<br>
-          University Name<br>
-          Email: <a href="mailto:your@email.edu" style="color: #2e7cc7; text-decoration: none;">your@email.edu</a>
+          Georgia State University<br>
+          Email: swang58[AT]student[dot]gsu[dot]edu
         </p>
       </div>
     </div>
 
     <h2 id="about">About</h2>
-    <p>I am a PhD student at University Name. My research focuses on...</p>
+    <p>HiI am a fifth-year PhD student in biostatistics at Georgia State University, working with Prof. Gengsheng Qin. My research interest focuses on...</p>
 
     <h2 id="research">Research</h2>
     <p>My research interests include...</p>
