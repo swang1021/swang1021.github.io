@@ -40,14 +40,15 @@ layout: default
     font-size: 2rem;
   }
 
-  .text-link {
-  color: #1a0dab;        /* classic link blue */
-  text-decoration: none; /* no underline by default */
+  .content-area a {
+  font-weight: inherit;          /* don’t force bold */
+  text-decoration: none;
   }
-  
-  .text-link:hover {
-  text-decoration-line: underline;
-  text-decoration-style: dashed;
+
+  .content-area a:hover {
+  font-weight: inherit !important;                 /* stop “bold on hover” */
+  text-decoration-line: underline !important;      /* force underline */
+  text-decoration-style: dotted !important;        /* or dashed */
   text-decoration-thickness: 1px;
   }
 
@@ -73,7 +74,7 @@ layout: default
   }
   .nav-link:hover {
   text-decoration-line: underline;
-  text-decoration-style: dashed;
+  text-decoration-style: dotted;
   text-decoration-thickness: 1px;
   }
 
