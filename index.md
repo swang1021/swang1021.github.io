@@ -40,6 +40,17 @@ layout: default
     font-size: 2rem;
   }
 
+  .text-link {
+  color: #1a0dab;        /* classic link blue */
+  text-decoration: none; /* no underline by default */
+  }
+  
+  .text-link:hover {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  }
+
   /* 4. SIDEBAR WITH CONTRAST & VERTICAL LINE */
   .sidebar {
   width: 100px;
@@ -62,6 +73,8 @@ layout: default
   }
   .nav-link:hover {
   text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
   }
 
   /* 5. MAIN CONTENT AREA */
