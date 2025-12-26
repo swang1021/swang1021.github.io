@@ -106,7 +106,7 @@ layout: default
     </div>
 
     <h2 id="about">About Me</h2>
-    <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with Prof. Gengsheng Qin. Here is my <a href="CV.pdf" target="_blank" rel="noopener">CV (updated Dec 2025)</a>.</p>
+    <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with Prof. Gengsheng Qin. Here is my <a href="CV_Shirui Wang.pdf" target="_blank" rel="noopener">CV (updated Dec 2025)</a>.</p>
 
     <h2 id="research">Research</h2>
     <p>My current research interests center on developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine.</p>
