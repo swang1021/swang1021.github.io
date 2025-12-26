@@ -42,27 +42,26 @@ layout: default
 
   /* 4. SIDEBAR WITH CONTRAST & VERTICAL LINE */
   .sidebar {
-    width: 120px;
-    flex-shrink: 0;
-    padding: 30px 15px;
-    background-color: #f8f8f8; /* Contrast color */
-    border-right: 1px solid #bbb; /* The separator line */
-    min-height: 100vh;
-    position: sticky;
-    top: 0;
+  width: 120px;
+  flex-shrink: 0;
+  padding: 30px 15px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #bbb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 👈 vertical center */
   }
 
   .nav-link {
     display: block;
     padding: 2px 0;
+    font-weight: bold;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .nav-link:hover {
   text-decoration-line: underline;
-  text-decoration-style: dashed;
-  text-decoration-thickness: 2px;
-  text-decoration-color: #2e7cc7;
   }
 
   /* 5. MAIN CONTENT AREA */
@@ -106,14 +105,25 @@ layout: default
       </div>
     </div>
 
-    <h2 id="about">About</h2>
-    <p>HiI am a fifth-year PhD student in biostatistics at Georgia State University, working with Prof. Gengsheng Qin. My research interest focuses on...</p>
+    <h2 id="about">About Me</h2>
+    <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with Prof. Gengsheng Qin. Here is my <a href="CV.pdf" target="_blank" rel="noopener">CV (updated Dec 2025)</a>.</p>
 
     <h2 id="research">Research</h2>
-    <p>My research interests include...</p>
+    <p>My current research interests center on developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine.</p>
 
-    <h2 id="publications">Publications</h2>
-    <p><strong>Ray</strong>, "Title of Paper," 2025.</p>
+    <h2 id="publications">Publications and Working Papers</h2>
+    <p><strong>Wang S</strong>, Shi S, Qin G. Interval estimation for the Youden index of a continuous diagnostic test with verification biased data. <em>Statistical Methods in Medical Research</em> 2025; 34: 796-811. <a href="https://journals.sagepub.com/doi/10.1177/09622802251322989">doi:10.1177/09622802251322989</p>
+    <p>Shi S, <strong>Wang S</strong>, Qin G. Interval estimation for three-class Youden index with verification bias. <em>Journal of Biopharmaceutical Statistics</em> 2025; 1: 1-22. <a href="https://www.tandfonline.com/doi/abs/10.1080/10543406.2025.2549361">doi:10.1080/10543406.2025.2549361</p>
+    <p>Shi S, <strong>Wang S</strong>, Qin G. Interval Estimation for the Sensitivity of a Test to the Early Diseased Stage with Verification Bias. <em>Revision at Pharmaceutical Statistics</em>
+    <p>Jia S, <strong>Wang S</strong>, Qin G. Methodological Approaches for the Estimation of Confidence Intervals on Partial Youden Index under Verification Bias. <em>Revision at Pharmaceutical Statistics</em>
+    <p><strong>Wang S</strong>, Shi S, Qin G. Empirical likelihood inference for the area under the ROC curve with verification biased data. <em>Submitted</em>
+    <p><strong>Wang S</strong>, Shi S, Qin G. Empirical likelihood-based confidence intervals for sensitivity of a continuous test at a fixed level of specificity with verification bias. <em>Submitted</em>
+    <p>Jia S, <strong>Wang S</strong>, Qin G. Empirical Likelihood-Based Confidence Intervals for the Partial AUC with Verification Bias. <em>Revision at Pharmaceutical Statistics</em>
+    <p><strong>Wang S</strong>, Islami F, Siegel RL, Jemal A, Choudhury PP. Imputation of missing cancer stage at diagnosis accounting for stage-specific survival. <em>Manuscript in preparation</em>
+    <p>Choudhury PP, Zhao J, <strong>Wang S</strong>, Jemal A, Yabroff R, Islami F. Are disruptions in Medicaid coverage linked to advanced stage diagnosis of screen-detectable cancers? <em>Manuscript in preparation</em>
 
+    <h2 id="others">More about me...</h2>
+    <p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/">douban</a> and <a href="https://moumouw.home.blog/">blog</a>.</p>
+    
   </div>
 </div>
