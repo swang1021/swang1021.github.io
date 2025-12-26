@@ -78,21 +78,12 @@ layout: default
   }
 </style>
 
-<div class="layout">
-  <div class="sidebar">
-    <!--
-    <div class="site-title">Home</div>
-    -->
-    <nav>
-      <a class="nav-link" href="/">Home</a>
-      <!--
-      <a class="nav-link" href="#research">Research</a>
-      <a class="nav-link" href="#software">Software</a>
-      <a class="nav-link" href="#teaching">Teaching</a>
-      <a class="nav-link" href="assets/CV.pdf" target="_blank">CV</a>
-      -->
-    </nav>
-  </div>
+<div style="display: flex;"> <div class="sidebar"> 
+  <!--<div class="site-title" style="font-weight: bold; font-size: 1.1rem; margin-bottom: 15px; color: #000;">Home</div>-->
+  <nav> <a class="nav-link" href="/">Home</a>
+    <!--<a class="nav-link" href="#research">Research</a> <a class="nav-link" href="#software">Software</a> <a class="nav-link" href="#teaching">Teaching</a> <a class="nav-link" href="/cv.pdf">CV</a>-->
+  </nav>
+</div>
 
   <div class="content-area">
     <div class="profile-section">
@@ -122,5 +113,4 @@ layout: default
     <p>Choudhury PP, Zhao J, <strong>Wang S</strong>, Jemal A, Yabroff R, Islami F. Are disruptions in Medicaid coverage linked to advanced stage diagnosis of screen-detectable cancers? <em>Manuscript in preparation</em>
     <h2 id="others">More about me...</h2>
     <p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/" target="_blank" rel="noopener">douban</a> and <a href="https://moumouw.home.blog/" target="_blank" rel="noopener">blog</a>.</p>
-  </div>
   </div>
