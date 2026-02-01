@@ -110,8 +110,8 @@ layout: default
           PhD Student<br>
           Georgia State University<br>
           Email: swang58[AT]student[dot]gsu[dot]edu
-        </p>
         <a href="https://github.com/swang1021" target="_blank"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;" > </a>
+        </p>
       </div>
     </div>
     <h2 id="about">About Me</h2>
