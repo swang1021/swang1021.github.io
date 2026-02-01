@@ -111,10 +111,11 @@ layout: default
           Georgia State University<br>
           Email: swang58[AT]student[dot]gsu[dot]edu
         </p>
+        <a href="https://github.com/swang1021" target="_blank"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;" > </a>
       </div>
     </div>
     <h2 id="about">About Me</h2>
-    <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with <a href="https://cas.gsu.edu/profile/gengsheng-qin/" target="_blank" rel="noopener">Prof. Gengsheng Qin</a>. Here is my <a href="CV_Shirui Wang.pdf" target="_blank" rel="noopener">CV (updated Dec 2025)</a>.</p>
+    <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with <a href="https://cas.gsu.edu/profile/gengsheng-qin/" target="_blank" rel="noopener">Prof. Gengsheng Qin</a>. Here is my <a href="CV_Shirui Wang.pdf" target="_blank" rel="noopener">CV (updated Feb 2026)</a>.</p>
     <h2 id="research">Research</h2>
     <p>My current research interests center on developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine.</p>
     <h2 id="publications">Publications and Working Papers</h2>
