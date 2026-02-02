@@ -113,9 +113,9 @@ layout: default
           Georgia State University<br>
           Email: swang58[AT]student[dot]gsu[dot]edu<br>
         <a href="https://github.com/swang1021" target="_blank"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;" > </a>
-        <a href="https://scholar.google.com/citations?hl=en&tzom=300&user=m0mzHBIAAAAJ" target="_blank"> <img src="https://user-images.githubusercontent.com/66117993/96351903-818a8b00-1084-11eb-96f6-3a931d66fff6.png" width="28" height="28" alt="Google Scholar" style="vertical-align: middle;" > </a>
-        <a href="https://www.researchgate.net/profile/Shirui-Wang-6/publications" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" width="27" height="27" alt="ResearchGate" style="vertical-align: middle;" > </a>
-        <a href="https://www.linkedin.com/in/shirui-wang-8483432b7" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="27" height="27" alt="LinkedIn" style="vertical-align: middle;" > </a>
+        <a href="https://scholar.google.com/citations?hl=en&tzom=300&user=m0mzHBIAAAAJ" target="_blank"> <img src="https://user-images.githubusercontent.com/66117993/96351903-818a8b00-1084-11eb-96f6-3a931d66fff6.png" width="27" height="28" alt="Google Scholar" style="vertical-align: middle;" > </a>
+        <a href="https://www.researchgate.net/profile/Shirui-Wang-6/publications" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" width="26" height="27" alt="ResearchGate" style="vertical-align: middle;" > </a>
+        <a href="https://www.linkedin.com/in/shirui-wang-8483432b7" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="27" height="26" alt="LinkedIn" style="vertical-align: middle;" > </a>
         </p>
       </div>
     </div>
@@ -133,10 +133,9 @@ layout: default
     <p>Jia S, <strong>Wang S</strong>, Qin G. Empirical Likelihood-Based Confidence Intervals for the Partial AUC with Verification Bias. <em>Revision at Pharmaceutical Statistics</em>
     <p><strong>Wang S</strong>, Islami F, Siegel RL, Jemal A, Choudhury PP. Imputation of missing cancer stage at diagnosis accounting for stage-specific survival. <em>Manuscript in preparation</em>
     <p>Choudhury PP, Zhao J, <strong>Wang S</strong>, Jemal A, Yabroff R, Islami F. Are disruptions in Medicaid coverage linked to advanced stage diagnosis of screen-detectable cancers? <em>Manuscript in preparation</em>
-    <h2 id="others">More about me...</h2>
-    <p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/" target="_blank" rel="noopener">douban</a> and <a href="https://moumouw.home.blog/" target="_blank" rel="noopener">blog</a>.</p>
     
 <section id="software"> <h2>Software</h2> <p> <a href="https://github.com/swang1021/rocvb" target="_blank" rel="noopener"> <strong><em>rocvb</em></strong></a>: R package for ROC inference under verification bias</p> </section>
+
 <section id="teaching"> <h2>Teaching</h2> <p> I am an enthusiastic and responsible instructor with three years of undergraduate‑level math and statistics teaching experience, dedicated to fostering effective learning environments and supporting student success in the age of AI. </p> 
   <p>My past teacing experience is listed below (semester, course, my role and enrollment). Here is my <a href="Student Evaluations.pdf" target="_blank" rel="noopener"> student evaluations</a>.</p>
   <p>Spring 2025: Elementary Statistics (Online), Primary instructor, Enrollment: 108</p>
@@ -152,5 +151,9 @@ layout: default
   <p>Summer 2021: Linear Algebra I (Online), Teaching Assistant, Enrollment: 35</p>
   <p>Spring 2021: College Algebra (Online), Lab Assistant, Enrollment: 120</p>
   <p>Fall 2020: Precalculus (Online), Lab Assistant, Enrollment: 120</p>
+  <p>Spring 2020: Precalculus (Face-to-Face/Online), Lab Assistant, Enrollment: 120</p>
+
+<h2 id="others">More about me...</h2>
+<p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/" target="_blank" rel="noopener">douban</a> and <a href="https://moumouw.home.blog/" target="_blank" rel="noopener">blog</a>.</p>  
   <p>Spring 2020: Precalculus (Face-to-Face/Online), Lab Assistant, Enrollment: 120</p>
 </section>
