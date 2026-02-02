@@ -137,14 +137,15 @@ layout: default
     <p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/" target="_blank" rel="noopener">douban</a> and <a href="https://moumouw.home.blog/" target="_blank" rel="noopener">blog</a>.</p>
     
 <section id="software"> <h2>Software</h2> <p> <a href="https://github.com/swang1021/rocvb" target="_blank" rel="noopener"> <strong><em>rocvb</em></strong></a>: R package for ROC inference under verification bias</p> </section>
-<section id="teaching"> <h2>Teaching</h2> <p> I am an enthusiastic and responsible instructor with three years of undergraduate‑level math and statistics teaching experience, dedicated to fostering effective learning environments and supporting student success in the age of AI. My past teacing experience is listed below (semester, course, my role and enrollment). Here is my <a href="Student Evaluations.pdf" target="_blank" rel="noopener"> student evaluations</a>.
+<section id="teaching"> <h2>Teaching</h2> <p> I am an enthusiastic and responsible instructor with three years of undergraduate‑level math and statistics teaching experience, dedicated to fostering effective learning environments and supporting student success in the age of AI. </p> 
+  <p>My past teacing experience is listed below (semester, course, my role and enrollment). Here is my <a href="Student Evaluations.pdf" target="_blank" rel="noopener"> student evaluations</a>.</p>
   <p>Spring 2025: Elementary Statistics (Online), Primary instructor, Enrollment: 108</p>
   <p>Fall 2024: Elementary Statistics (Online, 2 sections), Primary instructor, Enrollment: 87+76</p>
   <p>Summer 2024: Elementary Statistics (Online), Primary instructor, Enrollment: 31</p>
   <p>Spring 2024: Elementary Statistics (Face-to-Face, 2 sections), Primary instructor, Enrollment: 98+109</p>
   <p>Fall 2023: Elementary Statistics (Online & Face-to-Face), Primary instructor, Enrollment: 43+94</p>
   <p>Spring 2023: Elementary Statistics (Face-to-Face, 2 sections), Primary instructor, Enrollment: 105+95</p>
-  <p>Fall 2022: Elementary Statistics (Online & Face-to-Face), Primary instructor, Enrollment: 100+82/p>
+  <p>Fall 2022: Elementary Statistics (Online & Face-to-Face), Primary instructor, Enrollment: 100+82</p>
   <p>Summer 2022: Calculus for the life sciences (Face-to-Face), Teaching Assistant, Enrollment: 45</p>
   <p>Spring 2022: Applied Probability and Statistics for Computer Science (Face-to-Face, 2 sections), Teaching Assistant, Enrollment: 96+61</p>
   <p>Fall 2021: Applied Probability and Statistics for Computer Science (Face-to-Face, 2 sections), Teaching Assistant, Enrollment: 61+59</p>
