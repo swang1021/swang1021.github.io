@@ -97,7 +97,9 @@ layout: default
 <div style="display: flex;"> <div class="sidebar"> 
   <!--<div class="site-title" style="font-weight: bold; font-size: 1.1rem; margin-bottom: 15px; color: #000;">Home</div>-->
   <nav> <a class="nav-link" href="/">Home</a>
-    <!--<a class="nav-link" href="#research">Research</a> <a class="nav-link" href="#software">Software</a> <a class="nav-link" href="#teaching">Teaching</a> <a class="nav-link" href="/cv.pdf">CV</a>-->
+    <a class="nav-link" href="#research">Research</a> 
+    <a class="nav-link" href="#software">Software</a> 
+    <a class="nav-link" href="#teaching">Teaching</a> 
   </nav>
 </div>
 
@@ -118,9 +120,9 @@ layout: default
       </div>
     </div>
     <h2 id="about">About Me</h2>
-    <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with <a href="https://cas.gsu.edu/profile/gengsheng-qin/" target="_blank" rel="noopener">Prof. Gengsheng Qin</a>. Here is my <a href="CV_Shirui Wang.pdf" target="_blank" rel="noopener">CV (updated Feb 2026)</a>.</p>
+    <p>Hi! I am a fifth-year PhD student in biostatistics at Georgia State University, working with <a href="https://cas.gsu.edu/profile/gengsheng-qin/" target="_blank" rel="noopener">Prof. Gengsheng Qin</a>. Here is my <a href="CV.pdf" target="_blank" rel="noopener">CV (updated Feb 2026)</a>.</p>
     <h2 id="research">Research</h2>
-    <p>My current research interests center on developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine.</p>
+    <p>My current research interests center on developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine. I am also interested in causal inference and its application to real‑world observational healthcare data.</p>
     <h2 id="publications">Publications and Working Papers</h2>
     <p><strong>Wang S</strong>, Shi S, Qin G. Interval estimation for the Youden index of a continuous diagnostic test with verification biased data. <em>Statistical Methods in Medical Research</em> 2025; 34: 796-811. <a href="https://journals.sagepub.com/doi/10.1177/09622802251322989" target="_blank" rel="noopener">doi:10.1177/09622802251322989</a></p>
     <p>Shi S, <strong>Wang S</strong>, Qin G. Interval estimation for three-class Youden index with verification bias. <em>Journal of Biopharmaceutical Statistics</em> 2025; 1: 1-22. <a href="https://www.tandfonline.com/doi/abs/10.1080/10543406.2025.2549361" target="_blank" rel="noopener">doi:10.1080/10543406.2025.2549361</a></p>
