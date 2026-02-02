@@ -111,6 +111,9 @@ layout: default
           Georgia State University<br>
           Email: swang58[AT]student[dot]gsu[dot]edu<br>
         <a href="https://github.com/swang1021" target="_blank"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;" > </a>
+        <a href="https://scholar.google.com/citations?hl=en&tzom=300&user=m0mzHBIAAAAJ" target="_blank" style="margin-left: 8px;"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" width="26" alt="Google Scholar" style="vertical-align: middle; margin-top: 6px;" > </a>
+        <a href="https://www.researchgate.net/profile/Shirui-Wang-6/publications" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" width="26" alt="ResearchGate" style="vertical-align: middle;" > </a>
+        <a href="https://www.linkedin.com/in/shirui-wang-8483432b7" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="26" alt="LinkedIn" style="vertical-align: middle;" > </a>
         </p>
       </div>
     </div>
