@@ -113,9 +113,9 @@ layout: default
           Georgia State University<br>
           Email: swang58[AT]student[dot]gsu[dot]edu<br>
         <a href="https://github.com/swang1021" target="_blank"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;" > </a>
-        <a href="https://scholar.google.com/citations?hl=en&tzom=300&user=m0mzHBIAAAAJ" target="_blank"> <img src="https://user-images.githubusercontent.com/66117993/96351903-818a8b00-1084-11eb-96f6-3a931d66fff6.png" width="27" height="28" alt="Google Scholar" style="vertical-align: middle;" > </a>
-        <a href="https://www.researchgate.net/profile/Shirui-Wang-6/publications" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" width="26" height="27" alt="ResearchGate" style="vertical-align: middle;" > </a>
-        <a href="https://www.linkedin.com/in/shirui-wang-8483432b7" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="27" height="26" alt="LinkedIn" style="vertical-align: middle;" > </a>
+        <a href="https://scholar.google.com/citations?hl=en&tzom=300&user=m0mzHBIAAAAJ" target="_blank"> <img src="https://user-images.githubusercontent.com/66117993/96351903-818a8b00-1084-11eb-96f6-3a931d66fff6.png" width="26" height="26" alt="Google Scholar" style="vertical-align: middle;" > </a>
+        <a href="https://www.researchgate.net/profile/Shirui-Wang-6/publications" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" width="26" height="26" alt="ResearchGate" style="vertical-align: middle;" > </a>
+        <a href="https://www.linkedin.com/in/shirui-wang-8483432b7" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="26" height="26" alt="LinkedIn" style="vertical-align: middle;" > </a>
         </p>
       </div>
     </div>
@@ -155,6 +155,4 @@ layout: default
   <p>Spring 2020: Precalculus (Face-to-Face/Online), Lab Assistant, Enrollment: 120</p>
 
 <h2 id="others">More about me...</h2>
-<p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/" target="_blank" rel="noopener">douban</a> and <a href="https://moumouw.home.blog/" target="_blank" rel="noopener">blog</a>.</p>  
-  <p>Spring 2020: Precalculus (Face-to-Face/Online), Lab Assistant, Enrollment: 120</p>
-</section>
+<p>My hobbies include watching movies, reading and writing. Check my <a href="https://www.douban.com/people/207012599/" target="_blank" rel="noopener">douban</a> and <a href="https://moumouw.home.blog/" target="_blank" rel="noopener">blog</a>.</p></section>
