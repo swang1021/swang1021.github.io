@@ -105,7 +105,7 @@ layout: default
 
   <div class="content-area">
     <div class="profile-section">
-      <img src="profile.jpg" style="width: 180px; margin-right: 30px; border: 1px solid #999; padding: 1px;">
+      <img src="photo.jpg" style="width: 180px; margin-right: 30px; border: 1px solid #999; padding: 1px;">
       <div>
         <h1>Shirui (Ray) Wang</h1>
         <p>
@@ -124,7 +124,12 @@ layout: default
     
 <section id="research">
     <h2>Research</h2>
-    <p>My current research interests center on developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine. I am also interested in causal inference and its application to real‑world observational healthcare data.</p></section>
+    <p>My current research interests center on: 
+      <ul> 
+        <li>Developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine</li> 
+        <li>Causal inference and its application to real‑world observational healthcare data</li> 
+        <li>Statistical/mathematical/deep learning modeling of infectious disease dynamics</li> 
+      </ul>
     
 <section id="publications"><h2>Publications and Working Papers</h2>
     <p><strong>Wang S</strong>, Shi S, Qin G. Interval estimation for the Youden index of a continuous diagnostic test with verification biased data. <em>Statistical Methods in Medical Research</em> 2025; 34: 796-811. <a href="https://journals.sagepub.com/doi/10.1177/09622802251322989" target="_blank" rel="noopener">doi:10.1177/09622802251322989</a></p>
