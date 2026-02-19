@@ -128,7 +128,8 @@ layout: default
       <ul> 
         <li>Developing statistical tools to identify and validate biomarkers for (early) disease detection and personalized medicine</li> 
         <li>Causal inference and its application to real‑world observational healthcare data</li> 
-        <li>Statistical/mathematical/deep learning modeling of infectious disease dynamics</li> 
+        <li>Statistical/mathematical/deep learning modeling of infectious disease dynamics</li>
+        <li>Statistical applications in (E)sports analytics</li>
       </ul>
     
 <section id="publications"><h2>Publications and Working Papers</h2>
