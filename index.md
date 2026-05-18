@@ -143,7 +143,7 @@ layout: default
     <p><strong>Wang S</strong>, Islami F, Siegel RL, Jemal A, Choudhury PP. Imputation of missing cancer stage at diagnosis accounting for stage-specific survival. <em>Manuscript in preparation</em></p>
     <p>Choudhury PP, Zhao J, <strong>Wang S</strong>, Jemal A, Yabroff R, Islami F. Are disruptions in Medicaid coverage linked to advanced stage diagnosis of screen-detectable cancers? <em>Manuscript in preparation</em></p></section>
     
-<section id="software"> <h2>Software</h2> <p><strong><em>rocvb</em></strong>: R package for ROC-Based Inference for Diagnostic Accuracy Under Verification Bias. [<a href="https://cran.r-project.org/web/packages/rocvb/index.html" target="_blank" rel="noopener"> CRAN</a>] [<a href="https://github.com/swang1021/rocvb" target="_blank" rel="noopener"> GitHub</a>]</p> </section>
+<section id="software"> <h2>Software</h2> <p><strong><em>rocvb</em></strong>: R package for ROC-Based Inference for Diagnostic Accuracy Under Verification Bias. [<a href="https://cran.r-project.org/web/packages/rocvb/index.html" target="_blank" rel="noopener">CRAN</a>] [<a href="https://github.com/swang1021/rocvb" target="_blank" rel="noopener">GitHub</a>]</p> </section>
 
 <section id="teaching"> <h2>Teaching</h2> <p> I am an enthusiastic and responsible instructor with three years of undergraduate‑level math and statistics teaching experience, dedicated to fostering effective learning environments and supporting student success in the age of AI. </p> 
   <p>My past teacing experience is listed below (semester, course, my role and enrollment). Here is my <a href="Student Evaluations.pdf" target="_blank" rel="noopener"> student evaluations</a>.</p>
